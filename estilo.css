@@ -1,0 +1,35 @@
+
+
+body,html{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.conteudo{
+    display:flex;
+    flex-direction: row;
+    background-color: silver;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100vh
+    aling-content: space-around;
+    padding: 20px;
+}
+
+
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    
+}
+.centralizado
+{
+    display: flex;
+    flex-direction: row; /* colom serve para colocar na vertical e -row- para a horizontal*/
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
